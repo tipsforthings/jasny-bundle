@@ -41,4 +41,6 @@ If you feel like you could make an improvement to the framework, please submit a
 
 ## Framework
 
-As mentioned earlier, I have created a framework for new rails apps to get you started with off-canvas navigation, which can be found [here](https://github.com/tipsforthings/jasny-offcanvas-nav-rails). If you are starting a new rails project, this is the method that I would recommend. Simply clone the framework and run 'bundle install', this SHOULD leave you with a working application featuring the off-canvas navigation. Then you've just got to run 'rails server' to view the working example in a web browser @ localhost:3000.
+As mentioned earlier, I have created a framework for new rails apps to get you started with off-canvas navigation, which can be found [here](https://github.com/tipsforthings/jasny-offcanvas-nav-rails). If you are starting a new rails project, this is the method that I would recommend. 
+
+Simply clone the framework and run 'bundle install', this SHOULD leave you with a working application featuring the off-canvas navigation. Then you've just got to run 'rails server' and visit localhost:3000 in a web browser to view the working example.
