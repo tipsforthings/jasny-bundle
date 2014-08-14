@@ -1,5 +1,5 @@
 require 'rack'
-require 'jasny-bundle/mime_types'
+require 'jasny_bundle/mime_types'
 
 module JasnyBundle
   class Middleware

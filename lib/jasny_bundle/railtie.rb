@@ -1,10 +1,10 @@
-require 'font_assets/middleware'
+require 'jasny_bundle/middleware'
 
 module FontAssets
   class Railtie < Rails::Railtie
     config.font_assets = ActiveSupport::OrderedOptions.new
 
-    initializer "font_assets.configure_rails_initialization" do |app|
+    initializer "jasny_bundle.configure_rails_initialization" do |app|
       config.font_assets.origin ||= "*"
       config.font_assets.options ||= { allow_ssl: true }
 
@@ -14,7 +14,7 @@ module FontAssets
         'Rack::Runtime'
       end
 
-      app.middleware.insert_before insert_target, FontAssets::Middleware, config.font_assets.origin, config.font_assets.options
+      app.middleware.insert_before insert_target, JasnyBundle::Middleware, config.font_assets.origin, config.font_assets.options
     end
   end
 end
