@@ -1,5 +1,5 @@
-require 'jasny-bundle/version'
-require "jasny-bundle/railtie" if defined?(Rails)
+require 'jasny_bundle/version'
+require "jasny_bundle/railtie" if defined?(Rails)
 
 module JasnyBundle
   module Rails
