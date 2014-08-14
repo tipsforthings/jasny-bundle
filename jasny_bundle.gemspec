@@ -5,7 +5,7 @@ require "jasny_bundle/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "Jasny Bundle"
+  s.name        = "jasny_bundle"
   s.version     = JasnyBundle::VERSION
   s.authors     = ["Alex Scott"]
   s.email       = ["alex@tipsforthings.com"]
