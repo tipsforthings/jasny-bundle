@@ -39,7 +39,7 @@ If you feel like you could make an improvement to the framework, please submit a
 
     *= require jasny-bootstrap-responsive
 
-**For bootstrap social buttons**
+##For bootstrap social buttons
 
 **In your application.js**
 
