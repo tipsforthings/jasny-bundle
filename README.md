@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/jasny_bundle.svg)](http://badge.fury.io/rb/jasny_bundle)
+
 ## Jasny Bundle for Rails
 
 A simple gem for jasny's bootstrap extensions which can be found here. The gem can be found on Ruby Gems and is tested and fully functional.
